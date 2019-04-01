@@ -2,7 +2,8 @@ class AuthController < ApplicationController
 	skip_before_action :authorized, only: [:create]
  
 	def create
-	  @user = User.find_by(name: user_login_params[:name])
+		@user = User.find_by(name: user_login_params[:name])
+		byebug
 	  if @user && @user.authenticate(user_login_params[:password])
 			token = encode_token({ user_id: @user.id })
 			render json: { user: @user, jwt: token }, status: :accepted
