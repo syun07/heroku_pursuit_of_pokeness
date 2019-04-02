@@ -1,24 +1,7 @@
-# README
+[Play Here!](https://pursuit-of-pokeness.herokuapp.com)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Pursuit of Pokéness
+View over 450 types of Pokémon from the Kanto, Johto, Hoenn, and Sinnoh regions. Choose a Pokémon as your main fighter and a Pokémon to catch-- wild Pokémon can either be captured or flee! Catch and collect them all as they randomly appear on your map.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### `Live Application`
+This is the power behind [The Pursuit of Pokéness](https://github.com/syun07/heroku_frontend_pursuit_of_pokness) web application.  
