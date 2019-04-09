@@ -18,7 +18,7 @@ class UsersController < ApplicationController
 			@user.pokemons << Pokemon.all[0]
 			render json: { user: @user, jwt: @token }, status: :created
 		else
-			render json: @user.errors.full_messages, status: :unprocessable_entity
+			render json: { errors: @user.errors.full_messages }, status: :unprocessable_entity
 		end
 	end
 
